@@ -1,0 +1,38 @@
+html,body{
+    height: 100%;
+}
+.cover{
+    background: #222 url("./img/stars.jpg") center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    /* float: right; */
+}
+.cover-caption
+{
+    width: 100%;
+}
+
+#chalo
+{
+    position: relative;
+    left: 15%;
+}
+img{
+    max-width: 100%;
+}
+
+#merabar{
+    position: fixed;
+    background: white;
+    width: 100%;
+}
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
